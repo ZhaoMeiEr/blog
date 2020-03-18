@@ -1,0 +1,24 @@
+# 开发环境
+spring:
+  # 数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: admin
+  # 配置jpa
+  jpa:
+    hibernate:
+      # 数据库每次连接时 检查表结构与实体对象是否一致 若不一致同步成一致的
+      ddl-auto: update
+    # 在控制台和日志文件中显示 sql语句
+    show-sql: true
+# 配置日志
+logging:
+  level:
+    # spring-boot 日志级别
+    root: info
+    # com.zme 包下的代码的日志级别
+    com.zme: debug
+  file: log/bolg-dev.log
+

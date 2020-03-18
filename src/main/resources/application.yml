@@ -1,0 +1,12 @@
+#通用配置
+spring:
+  # thymeleaf
+  thymeleaf:
+    mode: HTML
+  # 指定当前使用哪个环境(开发环境或者生产环境)
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+comment.avatar: /images/avatar.png
