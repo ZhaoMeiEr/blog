@@ -32,3 +32,6 @@ build/
 
 ### ignore pro.yml
 application-pro.yml
+
+### log ###
+log/**
