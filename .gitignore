@@ -35,3 +35,6 @@ application-pro.yml
 
 ### log ###
 log/**
+
+### ssl zmer_wiki.pfx ###
+zmer_wiki.pfx

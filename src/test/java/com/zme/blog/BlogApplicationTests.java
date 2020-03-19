@@ -1,17 +1,14 @@
 package com.zme.blog;
 
-import com.zme.blog.dao.BlogRepository;
-import com.zme.blog.po.Blog;
-import com.zme.blog.po.Tag;
-import com.zme.blog.po.Type;
-import com.zme.blog.service.BlogService;
-import com.zme.blog.service.TagService;
-import com.zme.blog.service.TypeService;
+import com.zme.zmer_blog.dao.BlogRepository;
+import com.zme.zmer_blog.po.Blog;
+import com.zme.zmer_blog.service.BlogService;
+import com.zme.zmer_blog.service.TagService;
+import com.zme.zmer_blog.service.TypeService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

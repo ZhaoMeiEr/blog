@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zme</groupId>
-    <artifactId>blog</artifactId>
+    <artifactId>zmer_blog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>blog</name>
+    <name>zmer_blog</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
