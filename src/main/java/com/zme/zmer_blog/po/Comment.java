@@ -37,7 +37,7 @@ public class Comment {
     private List<Comment> replyComments = new ArrayList<>();
 
     // 评论父对象
-    @LazyCollection(LazyCollectionOption.FALSE)
+//    @LazyCollection(LazyCollectionOption.FALSE)
     @ManyToOne
     private Comment parentComment;
 

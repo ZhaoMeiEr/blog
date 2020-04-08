@@ -55,7 +55,7 @@ public class Blog {
     private Type type;
 
     // 博客标签集合
-    @LazyCollection(LazyCollectionOption.FALSE)
+//    @LazyCollection(LazyCollectionOption.FALSE)
     @ManyToMany
     private List<Tag> tags = new ArrayList<>();
 

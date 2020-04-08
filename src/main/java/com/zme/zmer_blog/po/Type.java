@@ -23,7 +23,7 @@ public class Type {
     @NotBlank(message = "分类名称不能为空")
     private String name;
     // 博客集合
-    @LazyCollection(LazyCollectionOption.FALSE)
+//    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "type")
     private List<Blog> blogs = new ArrayList<>();
 

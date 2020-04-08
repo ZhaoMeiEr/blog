@@ -119,6 +119,7 @@ public class BlogServiceImpl implements BlogService {
      * @param pageable 分页对象
      * @Return  博客分页列表
      */
+    @Transactional
     @Override
     public Page<Blog> listBlog(Pageable pageable) {
         return blogRepository.findAll(pageable);

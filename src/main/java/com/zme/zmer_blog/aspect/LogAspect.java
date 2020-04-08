@@ -30,7 +30,7 @@ public class LogAspect {
     // @Pointcut() 注解定义某个方法为一个切面
     // execution() 规定拦截哪些类
     // * com.zme.blog.web.*.*(..) 表示 com.zme.blog.web 包下的所有类 下的 任意参数的 所有方法
-    @Pointcut("execution(* com.zme.blog.web.*.*(..))")
+    @Pointcut("execution(* com.zme.zmer_blog.web.*.*(..))")
     public void log(){}
 
     /**
